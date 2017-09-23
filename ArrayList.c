@@ -34,7 +34,7 @@ ArrayList* newArrayList()
 
 static bool ListEmpty(List *list)
 {
-   return list == NULL?1:0;
+	return list == NULL?1:0;
 }
 static void ListAdd(void* element, List** list)
 {
